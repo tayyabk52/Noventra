@@ -24,7 +24,7 @@ export function SmoothScroll() {
         lerp: .1, duration: 1, easing: scrollEase,
         smoothWheel: true, wheelMultiplier: 1, touchMultiplier: 2,
         orientation: "vertical", gestureOrientation: "vertical", infinite: false,
-        syncTouch: true, syncTouchLerp: .1, touchInertiaMultiplier: 50,
+        syncTouch: true, syncTouchLerp: .1,
         prevent: node => !!node.closest("dialog, [data-lenis-prevent], textarea")
       });
       setSmoothScroller(lenis);
