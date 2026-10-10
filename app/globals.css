@@ -238,7 +238,8 @@ section, article { scroll-margin-top: var(--space-4xl); }
   .hero-copy { padding-bottom: var(--space-4xl); }
   .hero h1 { font-size: var(--text-hero); max-width: 940px; margin-block: var(--space-sm) var(--space-md); }
   .hero-description { font-size: var(--text-body); line-height: 1.5; }
-  .hero-actions { gap: var(--space-xl); margin-top: var(--space-lg); }
+  .hero-actions { flex-wrap: nowrap; gap: var(--space-lg); margin-top: var(--space-lg); }
+  .hero-actions .button { flex: 0 0 auto; }
   .button { min-height: 54px; padding-inline: var(--space-md); }
   .hero-actions .button--primary { padding-inline: var(--space-md); }
   .badge { font-size: var(--text-body-mobile); }
