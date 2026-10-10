@@ -1,0 +1,138 @@
+{
+  "recordedAt": "2026-10-09T13:27:52.917Z",
+  "environment": "Local Next.js production server, unthrottled Chromium, fresh browser context per trial. Initial-load observations over two seconds after network idle. These are lab measurements, not deployed field Core Web Vitals; INP requires field interaction data.",
+  "samples": [
+    {
+      "name": "desktop",
+      "trial": 1,
+      "lcpMs": 1248,
+      "cls": 0.00007,
+      "loadLongTaskExcessMs": 101,
+      "ttfbMs": 758,
+      "transferBytes": 231145,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontalOverflow": false,
+      "hero": {
+        "fontSize": "100px",
+        "fontWeight": "800",
+        "lineHeight": "102px",
+        "gutter": 110,
+        "wrapperWidth": 1280,
+        "contentWidth": 1220
+      }
+    },
+    {
+      "name": "desktop",
+      "trial": 2,
+      "lcpMs": 196,
+      "cls": 0,
+      "loadLongTaskExcessMs": 43,
+      "ttfbMs": 5,
+      "transferBytes": 231145,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontalOverflow": false,
+      "hero": {
+        "fontSize": "100px",
+        "fontWeight": "800",
+        "lineHeight": "102px",
+        "gutter": 110,
+        "wrapperWidth": 1280,
+        "contentWidth": 1220
+      }
+    },
+    {
+      "name": "desktop",
+      "trial": 3,
+      "lcpMs": 200,
+      "cls": 0,
+      "loadLongTaskExcessMs": 16,
+      "ttfbMs": 7,
+      "transferBytes": 231145,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "horizontalOverflow": false,
+      "hero": {
+        "fontSize": "100px",
+        "fontWeight": "800",
+        "lineHeight": "102px",
+        "gutter": 110,
+        "wrapperWidth": 1280,
+        "contentWidth": 1220
+      }
+    },
+    {
+      "name": "mobile",
+      "trial": 1,
+      "lcpMs": 192,
+      "cls": 0,
+      "loadLongTaskExcessMs": 0,
+      "ttfbMs": 4,
+      "transferBytes": 231145,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "horizontalOverflow": false,
+      "hero": {
+        "fontSize": "33px",
+        "fontWeight": "800",
+        "lineHeight": "33.66px",
+        "gutter": 20,
+        "wrapperWidth": 375,
+        "contentWidth": 335
+      }
+    },
+    {
+      "name": "mobile",
+      "trial": 2,
+      "lcpMs": 196,
+      "cls": 0,
+      "loadLongTaskExcessMs": 43,
+      "ttfbMs": 4,
+      "transferBytes": 231145,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "horizontalOverflow": false,
+      "hero": {
+        "fontSize": "33px",
+        "fontWeight": "800",
+        "lineHeight": "33.66px",
+        "gutter": 20,
+        "wrapperWidth": 375,
+        "contentWidth": 335
+      }
+    },
+    {
+      "name": "mobile",
+      "trial": 3,
+      "lcpMs": 196,
+      "cls": 0,
+      "loadLongTaskExcessMs": 31,
+      "ttfbMs": 5,
+      "transferBytes": 231145,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "horizontalOverflow": false,
+      "hero": {
+        "fontSize": "33px",
+        "fontWeight": "800",
+        "lineHeight": "33.66px",
+        "gutter": 20,
+        "wrapperWidth": 375,
+        "contentWidth": 335
+      }
+    }
+  ]
+}

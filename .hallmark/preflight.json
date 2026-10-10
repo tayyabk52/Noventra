@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-09",
+  "project": "Noventra",
+  "state": "first build in an initially empty application workspace",
+  "framework": "Next.js App Router",
+  "styling": "Tailwind CSS v4 and semantic OKLCH variables",
+  "audience": "Business decision makers evaluating practical AI and automation",
+  "useCase": "Brand website with solutions, approach, readiness resource and enquiry capture",
+  "tone": "Confident, clear, practical",
+  "route": "study and build from explicitly supplied public reference",
+  "source": "https://logicera.com/",
+  "brandAsset": "public/brand/noventra-original.png",
+  "genre": "modern-minimal",
+  "theme": "studied-DNA",
+  "requirementsTakePrecedence": ["measured Open Sans", "measured 5px spacing unit", "Noventra cyan", "PRODUCT.md section order and 1280px container"],
+  "contentDecision": "User approved authored AI copy, process ordinals instead of claimed results, and Noventra principles instead of customer testimonials"
+}

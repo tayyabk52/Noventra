@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.data/
+.env*
+!.env.example
+tsconfig.tsbuildinfo
+playwright-report/
+test-results/
+inspection/reference/source-*.js
+inspection/reference/source-*.css
+inspection/reference/*.html
+inspection/motion/source-*.js

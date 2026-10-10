@@ -1,0 +1,59 @@
+/* Hallmark · macrostructure: Marquee Hero · theme: studied-DNA (https://logicera.com/) · nav: N5 · footer: Ft3 · anchor hue: Noventra cyan */
+/* Hallmark · pre-emit critique: P4 H4 E4 S5 R4 V4 */
+:root {
+  --color-paper: oklch(98.6385% 0.00416 236.495); /* #f8fbfd */
+  --color-ink: oklch(21.0363% 0.05247 258.271); /* #081830 */
+  --color-accent: oklch(73.7685% 0.12525 205.470); /* #08c0d0 */
+  --color-accent-strong: oklch(53.7753% 0.09407 216.368); /* #087b91 */
+  --color-secondary: oklch(59.0259% 0.11857 233.075); /* #1088b8 */
+  --color-hero: oklch(95.3458% 0.01777 214.379); /* #e3f3f7 */
+  --color-muted: oklch(48.9645% 0.03502 251.563); /* #526274 */
+  --color-rule: oklch(90.7372% 0.01782 229.018); /* #d5e3ea */
+  --color-focus: oklch(53.7753% 0.09407 216.368); /* #087b91 */
+  --color-error: oklch(48.8562% 0.15637 17.943); /* #a62d3d */
+  --color-success: oklch(49.7243% 0.10317 160.313); /* #18744e */
+  --color-dark-muted: oklch(82.9394% 0.02680 239.142); /* #b8cad7 */
+  --color-dark-rule: oklch(38.0325% 0.04495 252.595); /* #31445a */
+  --color-transparent: oklch(98.6385% 0.00416 236.495); /* #f8fbfd */
+  --font-body: var(--font-open-sans), "Open Sans", Arial, sans-serif;
+  --font-display: var(--font-body);
+  --space-3xs: 5px;
+  --space-2xs: 10px;
+  --space-xs: 15px;
+  --space-sm: 20px;
+  --space-md: 30px;
+  --space-lg: 40px;
+  --space-xl: 50px;
+  --space-2xl: 60px;
+  --space-3xl: 80px;
+  --space-4xl: 100px;
+  --space-5xl: 140px;
+  --space-6xl: 200px;
+  --text-small: 14px;
+  --text-body-mobile: 16px;
+  --text-nav: 18px;
+  --text-body: 20px;
+  --text-intro-mobile: 24px;
+  --text-title-mobile: 28px;
+  --text-hero-mobile: 33px;
+  --text-title: 39px;
+  --text-counter-mobile: 60px;
+  --text-counter: 75px;
+  --text-hero: 100px;
+  --text-ticker: 160px;
+  --radius-card: 10px;
+  --radius-pill: 9999px;
+  --rule-fine: 1px;
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --dur-micro: 150ms;
+  --dur-hover: 400ms;
+  --dur-short: 500ms;
+  --dur-slide: 800ms;
+  --dur-counter: 1500ms;
+  --dur-loop: 40s;
+  --z-base: 1;
+  --z-sticky: 200;
+  --z-dialog: 400;
+}

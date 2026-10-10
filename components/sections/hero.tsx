@@ -1,0 +1,9 @@
+import { ArrowDown, ArrowUpRight } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import { ButtonLink } from "@/components/ui/button";
+import { Container } from "@/components/ui/container";
+import { Illustration } from "@/components/ui/illustration";
+import { HeroHeadline } from "@/components/motion/hero-headline";
+export function Hero() {
+  return <><section className="hero" aria-labelledby="hero-title"><Container className="hero-inner"><div className="hero-copy"><Badge>Business-first AI & engineering</Badge><HeroHeadline /><p className="hero-description">Practical intelligence.<br className="mobile-break" /> Built around your business.</p><div className="hero-actions"><ButtonLink href="#contact">Start a conversation</ButtonLink><ButtonLink variant="ghost" href="#solutions">Explore solutions</ButtonLink></div></div><div className="hero-visual"><Illustration kind="hero" /><p className="hero-visual-caption"><span>Human ambition.</span><span>Intelligent execution.<ArrowUpRight size={16} aria-hidden="true" /></span></p></div><a href="#about" className="hero-scroll"><ArrowDown size={18} aria-hidden="true" /><span>A clear path forward</span></a></Container></section><section className="introduction" id="about" aria-labelledby="intro-title"><Container className="intro-grid"><h2 id="intro-title">Your next chapter,<br /><span>powered by AI.</span></h2><div><p>Good technology makes the complex feel clear. Noventra brings AI, automation, and engineering together to help you solve the problems that hold your business back.</p><p className="text-muted">From the first conversation to a working solution, we focus on what your people need and what your business can put to use.</p><a href="#approach" className="text-link">Get to know our approach<ArrowUpRight size={18} aria-hidden="true" /></a></div></Container></section></>;
+}
