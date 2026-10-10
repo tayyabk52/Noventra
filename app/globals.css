@@ -235,6 +235,7 @@ section, article { scroll-margin-top: var(--space-4xl); }
   .mobile-navigation, .mobile-contact { display: none; }
   .hero { min-height: 900px; display: flex; align-items: center; }
   .hero-inner { min-height: 660px; display: flex; align-items: center; }
+  .hero-copy { padding-bottom: var(--space-4xl); }
   .hero h1 { font-size: var(--text-hero); max-width: 940px; margin-block: var(--space-sm) var(--space-md); }
   .hero-description { font-size: var(--text-body); line-height: 1.5; }
   .hero-actions { gap: var(--space-xl); margin-top: var(--space-lg); }
@@ -244,7 +245,7 @@ section, article { scroll-margin-top: var(--space-4xl); }
   .hero-visual { top: var(--space-sm); right: -5%; width: 44%; opacity: 1; }
   .hero-visual-caption { display: grid; font-size: var(--text-small); line-height: 1.5; padding-left: 30%; margin-top: -25px; color: var(--color-muted); }
   .hero-visual-caption span:last-child { display: flex; align-items: center; gap: var(--space-2xs); color: var(--color-ink); }
-  .hero-scroll { display: flex; position: absolute; bottom: 0; left: var(--space-md); align-items: center; gap: var(--space-xs); font-size: var(--text-small); min-height: 44px; }
+  .hero-scroll { display: flex; position: absolute; bottom: 0; left: var(--space-md); z-index: 2; align-items: center; gap: var(--space-xs); font-size: var(--text-small); min-height: 44px; }
   .introduction { padding-block: var(--space-4xl); }
   .intro-grid { gap: var(--space-3xl); }
   .intro-grid h2 { font-size: var(--text-title); line-height: 1.05; }
