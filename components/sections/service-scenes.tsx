@@ -60,6 +60,14 @@ export function ServiceScenes({ children, labels }: Readonly<ServiceScenesProps>
         const cleanup = () => { reset(); cleanups.forEach(remove => remove()); splits.forEach(split => split.revert()); };
         if (!context.conditions?.allowed || expanded) { reset(); return cleanup; }
 
+        // LogicEra keeps mobile solutions in normal document flow. Do the same here:
+        // disclosures must be able to grow a card without fighting a pinned layer.
+        if (!desktop) {
+          reset();
+          cards.forEach(card => ScrollTrigger.create({ trigger: card, start: "top 80%", once: true, onEnter: () => context.add(() => reveal(card)) }));
+          return cleanup;
+        }
+
         element.classList.add("is-pinned");
         const headerOffset = () => (document.querySelector(".header-inner")?.getBoundingClientRect().height || 90) + 10;
         const measure = () => Math.ceil(Math.max(...scenes.map(scene => scene.scrollHeight)));
